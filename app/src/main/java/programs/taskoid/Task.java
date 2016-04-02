@@ -1,11 +1,12 @@
 package programs.taskoid;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Daniel on 2016-03-29.
  */
-public class Task {
+public class Task implements Serializable {
     private String mName;
     private Date mDueDate;
     private boolean mDone;
